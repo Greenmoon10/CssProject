@@ -45,6 +45,11 @@
     color: #1f2937;
     padding: 20px;
 }
+.box-4
+{
+    display: flex;
+    flex-direction: column;
+}
 .headerbox
 {
     display: flex;
@@ -121,4 +126,24 @@ ul
     flex-direction: row;
     flex-grow: 1;
     gap: 10px;
+}
+.lastbox-1
+{
+    display: flex;
+    flex-grow: 8;
+    background-color: #3882f6;
+    margin: 50px;
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.footer
+{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    background-color:#1f2937;
+    color: #f9faf8;
 }
